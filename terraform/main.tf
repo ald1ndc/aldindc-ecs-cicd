@@ -73,3 +73,4 @@ module "ecs_sg" {
   ingress_rules       = ["http-8080-tcp"]
   egress_rules        = ["all-all"]
 }
+#ok
