@@ -1,18 +1,19 @@
 name: Deploy to Amazon ECS
 
 on:
-#  push:
-#    branches:
-#      - dev
-#      - uat
- workflow_dispatch:
-    inputs:
-      choice:
-        type: choice
-        description: Select the environment
-        options:
-        - dev
-        - uat                                              
+  push:
+    branches:
+      - dev
+      - uat
+      
+# workflow_dispatch:
+#    inputs:
+#      choice:
+#        type: choice
+#        description: Select the environment
+#        options:
+#        - dev
+#        - uat                                              
 jobs:
   deploy:
     name: Deploy
