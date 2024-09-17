@@ -1,5 +1,5 @@
 locals {
-  prefix = "aldin-dev"  #Change
+  prefix = "aldin-dev" #Change
 }
 
 data "aws_caller_identity" "current" {}
