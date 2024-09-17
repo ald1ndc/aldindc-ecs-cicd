@@ -66,4 +66,5 @@ jobs:
           cluster: ${{ vars.ECS_CLUSTER }}
           wait-for-service-stability: true
 
-##create cluster in AWS 
+##create cluster in AWS
+##
