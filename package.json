@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@aws-sdk/client-ecs": "^3.651.1",
     "express": "^4.21.0"
   }
 }

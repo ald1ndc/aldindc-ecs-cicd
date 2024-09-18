@@ -1,5 +1,5 @@
 locals {
-  prefix = "aldin-dev"  #Change
+  prefix = "aldin-dev" #Change
 }
 
 data "aws_caller_identity" "current" {}
@@ -73,3 +73,4 @@ module "ecs_sg" {
   ingress_rules       = ["http-8080-tcp"]
   egress_rules        = ["all-all"]
 }
+#ok
