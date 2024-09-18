@@ -68,3 +68,6 @@ jobs:
 
 ##create cluster in AWS
 ###
+### terraform destroy
+### in AWS console delete the clodwatch logs
+### terraform apply again
